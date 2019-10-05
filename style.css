@@ -4,6 +4,7 @@
     background-color: white;
     padding:20px;
     width:100%;
+    border-radius: 2px;
 }
 
 #password{
@@ -15,23 +16,16 @@
 }
 
 body {
-    background-color: rgb(235, 233, 233);
+    background-color:#F6F8FA;
 }
 
 header{
     padding: 20px;
-}
-
-h1{
-
-}
-
-h2{
-
+    text-align: center;
 }
 
 textarea {
-
+border-radius: 2px;
 }
 
 #password {
@@ -39,11 +33,16 @@ textarea {
 }
 
 #generate {
-    background-color: darkred;
-    color: lightgrey;
+    background-color: #AF0808;
+    color: #F9FBFD;
+    border-radius: 20px;
+    padding: 7px;
 }
 
 #copy {
-    background-color: darkred;
-    color: lightgrey;
+    background-color: #C0C7CF;
+    color: #F9FBFD;
+    float: right;
+    border-radius: 20px;
+    padding: 7px;
 }
