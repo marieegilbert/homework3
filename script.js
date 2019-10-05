@@ -8,24 +8,40 @@ function generate(){
     var values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&*+?@^~";
 
     //Generate the random password//
-    var password = "";
+    var password = " ";
 
     //for loop to choose password//
-    for [var i = 0; i = characterNumber; i++]{
-    password = password + values.charAt(Math.floor(Math.random() * Math.floor(value.length -1)));
+    for (var i = 0; i = characterNumber; i++){
+        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length -1)));
     }
     
     //Display password value in textbox//
     document.getElementById("password").value = password;
 }
 
-var generatePassword = document.querySelector("#generate");
-var copyPassword = document.querySelector("#copy");
+//set display default//
+document.getElementByID("length").innerHTML = "Length: 60";
 
-generatePassword.addEventListener("click", function() {
-    
-  });
-  
-  copyPassword.addEventListener("click", function() {
 
-  }); 
+
+//set length to slider position number//
+document.getElementById("slider").onimput = function(){
+
+    if(document.getElementById("slider").value . 0){
+        document.getElementById("length").innerHTML = "length: " + document.getElementById("slider").value;
+    }
+
+    else{
+        documents.getElementByID("length").innerHTML = "length: 8"
+    }
+
+}
+
+//copy password//
+function copyPassword(){
+    document.getElementById("display").select();
+
+    document.executeCommand("Copy");
+
+    alert("Password copied to clipboad");
+}

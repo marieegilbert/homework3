@@ -19,7 +19,7 @@ body {
 }
 
 header{
-
+    padding: 20px;
 }
 
 h1{
@@ -39,9 +39,11 @@ textarea {
 }
 
 #generate {
-
+    background-color: darkred;
+    color: lightgrey;
 }
 
 #copy {
-
+    background-color: darkred;
+    color: lightgrey;
 }
