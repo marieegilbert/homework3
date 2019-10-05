@@ -1,5 +1,21 @@
-body {
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding:20px;
+    width:100%;
+}
 
+#password{
+    width: 100%;
+}
+
+#slider{
+    width: 100%;
+}
+
+body {
+    background-color: rgb(235, 233, 233);
 }
 
 header{
@@ -27,5 +43,5 @@ textarea {
 }
 
 #copy {
-    
+
 }
